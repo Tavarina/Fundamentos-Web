@@ -1,0 +1,106 @@
+/*
+Estilos da página index.html
+*/
+
+body{
+    background: url("../img/purplefundo.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: repeat;
+    background-position: right bottom;
+}
+/*#back-ground{
+    background-image: url("img/purplefundo.jpg");
+    background-color: #9669dde1;
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: repeat;
+    background-position: right bottom;
+}*/
+
+.p1 {
+    font-family: "Times New Roman", Times, serif;
+  }
+ .center{
+    text-align: center;
+ }
+.justify{
+    text-align: justify;
+}
+
+
+.br-50{
+    display: flex;
+    flex-flow: row;
+    padding: 30px; 
+    border: 1px;
+    border-radius: 30%;
+}
+.br{
+    border-radius: 30%;
+    padding: 40px; 
+}
+/*.wh{
+    width:00px;
+    height: 500px;
+}*/
+
+.container{
+    display:flex;
+    flex-flow: row;
+    justify-content: center;
+    align-items: center;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow:hidden;
+    background-color: rgb(134, 25, 192);
+    
+  }
+  /*Testar cada uma das linhas*/
+  li a, .dropbtn {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
+    #menu li{
+        display: inline;
+        padding: 20px;
+        
+
+}
+#menu li a{
+    font-family: "Times New Roman", Times, serif;
+    text-decoration: none; 
+    color:black;
+    font-size: 15px;
+
+}
+#menu li a:hover{
+    
+    color:blueviolet;
+}
+.p-30{
+    padding: 30px;
+}
+
+.tm-social{
+    width:50;
+    height: 50px;
+}
+.mb-50{
+    margin-bottom: 50px;
+}
+/*
+Estilos da página contato.html
+*/
+
+
+.ml-50{
+    margin-left: 50px;
+}
